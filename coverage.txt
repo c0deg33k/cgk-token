@@ -1,0 +1,92 @@
+Compiling 32 files with Solc 0.8.25
+Solc 0.8.25 finished in 4.95s
+Compiler run successful!
+Analysing contracts...
+Running tests...
+
+Ran 11 tests for test/MyTokenTest.t.sol:MyTokenTest
+[PASS] testAllowancesWork() (gas: 57617)
+[PASS] testApproveUpdatesAllowanceCorrectly() (gas: 41527)
+[PASS] testConstructor() (gas: 864908)
+[PASS] testDeployerBalance() (gas: 14961)
+[PASS] testTokenNameAndSymbol() (gas: 19550)
+[PASS] testTotalSupply() (gas: 11028)
+[PASS] testTransferFromUpdatesAllowanceCorrectly() (gas: 56032)
+[PASS] testTransferFromUser1ToUser2() (gas: 48792)
+[PASS] testUser1Has100Ether() (gas: 13727)
+[PASS] testUserCannotTransferFromAnotherUserWithoutApproval() (gas: 17523)
+[PASS] testUserCannotTransferMoreThanTheyHave() (gas: 17130)
+Suite result: ok. 11 passed; 0 failed; 0 skipped; finished in 8.15ms (9.00ms CPU time)
+
+Ran 1 test suite in 9.48ms (8.15ms CPU time): 11 tests passed, 0 failed, 0 skipped (11 total tests)
+Uncovered for script/DeployMyToken.s.sol:
+
+Uncovered for src/MyToken.sol:
+
+Anchors for Contract "console" (solc 0.8.25, source ID 15):
+
+Anchors for Contract "MyToken" (solc 0.8.25, source ID 30):
+- IC 5 -> Item 10
+- Runtime code
+  - Refers to item: Function "" (location: source ID 30, line 7, chars 159-267, hits: 3)
+- IC 193 -> Item 11
+- Runtime code
+  - Refers to item: Line (location: source ID 30, line 8, chars 228-260, hits: 2)
+- IC 193 -> Item 12
+- Runtime code
+  - Refers to item: Statement (location: source ID 30, line 8, chars 228-260, hits: 2)
+
+Anchors for Contract "DeployMyToken" (solc 0.8.25, source ID 29):
+- IC 100 -> Item 0
+- Creation code
+  - Refers to item: Function "run" (location: source ID 29, line 11, chars 254-439, hits: 11)
+- IC 213 -> Item 1
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 12, chars 304-323, hits: 11)
+- IC 213 -> Item 2
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 12, chars 304-323, hits: 11)
+- IC 308 -> Item 3
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 13, chars 333-378, hits: 11)
+- IC 308 -> Item 4
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 13, chars 333-378, hits: 11)
+- IC 321 -> Item 5
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 13, chars 351-378, hits: 11)
+- IC 410 -> Item 6
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 14, chars 388-406, hits: 11)
+- IC 410 -> Item 7
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 14, chars 388-406, hits: 11)
+- IC 505 -> Item 8
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 15, chars 416-432, hits: 11)
+- IC 505 -> Item 9
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 15, chars 416-432, hits: 11)
+
+Anchors for Contract "MyTokenTest" (solc 0.8.25, source ID 31):
+
+Anchors for Contract "MockERC20" (solc 0.8.25, source ID 21):
+
+Anchors for Contract "stdStorage" (solc 0.8.25, source ID 9):
+
+Anchors for Contract "safeconsole" (solc 0.8.25, source ID 23):
+
+Anchors for Contract "stdToml" (solc 0.8.25, source ID 11):
+
+Anchors for Contract "StdStyle" (solc 0.8.25, source ID 10):
+
+Anchors for Contract "stdJson" (solc 0.8.25, source ID 7):
+
+Anchors for Contract "stdMath" (solc 0.8.25, source ID 8):
+
+Anchors for Contract "stdStorageSafe" (solc 0.8.25, source ID 9):
+
+Anchors for Contract "MockERC721" (solc 0.8.25, source ID 22):
+
+Anchors for Contract "stdError" (solc 0.8.25, source ID 5):
+
